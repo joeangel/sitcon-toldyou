@@ -1,14 +1,14 @@
 (function($) {
 
-  $.foxmosatalks = function(options) {
+  $.sitcontalks = function(options) {
 
     var settings = $.extend({
         image: [
-          'http://joeangel.github.io/sitcon-toldyou/img/foxmosa-reddino.png',
-	  'http://joeangel.github.io/sitcon-toldyou/img/foxmosa-gift.png',
+          'http://joeangel.github.io/sitcon-toldyou/img/sitcon-reddino.png',
+	  'http://joeangel.github.io/sitcon-toldyou/img/sitcon-gift.png',
         ],
-        height: 342, // image height
-        width: 300, // image width
+        height: 420, // image height
+        width: 385, // image width
         effect: 'default', // options: default, fast, slow, veryslow, jump, sneaky
         popup_effect: 'fade', // options: default, fade, slide, zoom
         popup_radius: '8px', // popup radius
@@ -16,7 +16,7 @@
         popup_bgcolor: 'beige', // popup background color
         readmore_color: 'brown', // popup font color
         comein_position: 80, // show kp after scroll more than percent of page height
-        default_text: '哈囉，我是小莎！ <br /> 你知道 MozTW 現在正打算籌劃一個 <a href="https://etherpad.mozilla.org/moztw-firefox-10-year-party" target="_blank">Firefox 10 週年慶祝 Party</a> 嗎？快點來看看吧 >q<', // the words show in popup before loading done
+        default_text: '哈囉，我是 SITCON 娘！ <br /> 你知道 Workshop 的活動落幕了嗎？ <a href="https://sitcon.hackpad.com/SITCON-Workshop-2014--q2Uqbga1acj" target="_blank">SITCON Workshop 2014暑期 課程教材匯集</a> 快點來看看吧 >q<', // the words show in popup before loading done
         enter_from: 'left', // options: left, right
         enter_distance: -100 // the distance to window side
 

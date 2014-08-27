@@ -4,12 +4,12 @@
   <title>SITCON 娘滑出來推你坑</title>
   <meta content="SITCON 娘滑出來推你坑" property="og:title">
   <meta content="SITCON 娘滑出來推你坑" property="og:site_name">
-  <meta content="http://joeangel.github.io/sitcon-toldyou/img/foxmosa-reddino.png" property="og:image">
+  <meta content="http://joeangel.github.io/sitcon-toldyou/img/sitcon-reddino.png" property="og:image">
   <meta content="SITCON 娘滑出來推你坑還在修改中，歡迎 PR (炸)" property="og:description">
   <meta content="website" property="og:type">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="src/foxmosa-v2.css">
+  <link rel="stylesheet" href="src/sitcon-v2.css">
   <style>
     .header {
       text-align: center;
@@ -87,11 +87,11 @@
     <pre>&lt;script src=&quot;http://code.jquery.com/jquery-1.11.1.min.js&quot;&gt;&lt;/script&gt;</pre>
     <br>
     <p>步驟 2 : 請在您的網頁中 <code>&lt;head&gt; ... &lt;/head&gt;</code> 內，引用下方 CSS</p>
-    <pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://joeangel.github.io/sitcon-toldyou/src/foxmosa-v2.css&quot;&gt;</pre>
+    <pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;http://joeangel.github.io/sitcon-toldyou/src/sitcon-v2.css&quot;&gt;</pre>
     <br>
     <p>步驟 3 : 請在您的網頁中，緊鄰 <code>&lt;/body&gt;</code> 結束標記之前，引用下方 JS</p>
-    <pre>&lt;script src=&quot;http://joeangel.github.io/sitcon-toldyou/src/foxmosatalks-v2.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;$.foxmosatalks();&lt;/script&gt;</pre>
+    <pre>&lt;script src=&quot;http://joeangel.github.io/sitcon-toldyou/src/sitcontalks-v2.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;$.sitcontalks();&lt;/script&gt;</pre>
   </div>
   <hr>
   <div class="col_12">
@@ -113,7 +113,7 @@
         </tr>
         <tr>
           <td class="text-center" style="vertical-align: middle;">image</td>
-          <td>圖片網址，可設定 單張 或 多張圖片，設定多張圖片請用 array 包住<br><small>預設：<br><code>['http://joeangel.github.io/sitcon-toldyou/img/foxmosa-gift.png',<br>'http://joeangel.github.io/sitcon-toldyou/img/foxmosa-reddino.png']</code></small></td>
+          <td>圖片網址，可設定 單張 或 多張圖片，設定多張圖片請用 array 包住<br><small>預設：<br><code>['http://joeangel.github.io/sitcon-toldyou/img/sitcon-gift.png',<br>'http://joeangel.github.io/sitcon-toldyou/img/sitcon-reddino.png']</code></small></td>
         </tr>
         <tr>
           <td class="text-center" style="vertical-align: middle;">height</td>
@@ -172,10 +172,10 @@
     <h4>使用範例一</h4>
     <pre><span class="label label-success">CODE</span>
 
-  $.foxmosatalks({
+  $.sitcontalks({
     image: [
-      &#039;../img/foxmosa-gift.png&#039;,
-      &#039;../img/foxmosa-reddino.png&#039; // &#x8a2d;&#x5b9a;&#x70ba;&#x591a;&#x5f35;&#x5716;&#x7247;
+      &#039;../img/sitcon-gift.png&#039;,
+      &#039;../img/sitcon-reddino.png&#039; // &#x8a2d;&#x5b9a;&#x70ba;&#x591a;&#x5f35;&#x5716;&#x7247;
     ],
     width: 800,
     height: 774,
@@ -190,8 +190,8 @@
     <h4>使用範例二</h4>
     <pre><span class="label label-success">CODE</span>
 
-  $.foxmosatalks({
-    image: &#039;../img/foxmosa-reddino.png&#039;, // &#x8a2d;&#x5b9a;&#x55ae;&#x5f35;&#x5716;&#x7247;
+  $.sitcontalks({
+    image: &#039;../img/sitcon-reddino.png&#039;, // &#x8a2d;&#x5b9a;&#x55ae;&#x5f35;&#x5716;&#x7247;
     effect: &#039;slow&#039;,
     popup_effect: &#039;slide&#039;,
     popup_radius: &#039;16px&#039;,
@@ -207,7 +207,7 @@
   <hr>
   <div class="col_12">
     <h3 id="download">下載</h3><br>
-    <a href="src/foxmosatalks-v2.js" class="btn btn-default btn-lg download" target="_blank" download="foxmosatalks-v2.js">foxmosatalks-v2.js</a> &nbsp;
+    <a href="src/sitcontalks-v2.js" class="btn btn-default btn-lg download" target="_blank" download="sitcontalks-v2.js">sitcontalks-v2.js</a> &nbsp;
     <p>
       通通都放在 Github，請自取，<a href="https://github.com/joeangel/sitcon-toldyou" target="_blank">按這裡前往 Github</a><br>歡迎任意使用或更改原始碼，本專案採用 <a href="https://github.com/orinx/sitcon-toldyou/kp/blob/gh-pages/LICENSE">BSD 授權</a>
     </p>
@@ -231,11 +231,11 @@
     這個專案是 Fork <a href="https://github.com/orinx/sitcon-toldyou/" target="_blank">小莎滑出來推你坑</a>而來的！目前沒有改太多東西，歡迎大家多多跳坑做一個 <a href="https://github.com/joeangel/sitcon-toldyou" target="_blank">SITCON 的版本</a> ;P </div>
  </div>
 <script src="//code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
-<script src="src/foxmosatalks-v2.js" type="text/javascript"></script>
+<script src="src/sitcontalks-v2.js" type="text/javascript"></script>
 <script src="hc-sticky.js" type="text/javascript"></script>
 <script>
 $(document).ready(function(){
-  $.foxmosatalks();
+  $.sitcontalks();
   $('.go-anchor').on('click',function (e) {
       e.preventDefault();
 
