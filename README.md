@@ -18,4 +18,4 @@ ver 1.0 剛從 [小莎滑出來推你坑](https://github.com/orinx/foxmosa-toldy
 ## 授權
 
 本專案是由 [小莎滑出來推你坑](https://github.com/orinx/foxmosa-toldyou)修改而來，感謝原作！
-本專案採用 [BSD 授權](https://github.com/orinx/sitcon-toldyou/kp/blob/gh-pages/LICENSE)
+本專案採用 [BSD 授權](https://github.com/joeangel/sitcon-toldyou/blob/gh-pages/LICENSE)
